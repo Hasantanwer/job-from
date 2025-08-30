@@ -1,1 +1,58 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+    <h2 style="text-align:center;">Job FORM</h2>
+    <p style="text-align:center;">
+        Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Form.
+    </p>
+
+    <form style="width: 400px; margin: auto;">
+        <label><b>* Full Name:</b></label><br>
+        <input type="text" name="fullname" placeholder="Enter your name" value="Hasan tanwer"><br><br>
+
+        <label><b>* Email:</b></label><br>
+        <input type="email" name="email" placeholder="Enter your Email"><br><br>
+
+        <label><b>* Age:</b></label><br>
+        <input type="text" name="age" placeholder="Age"><br><br>
+
+        <label>Which option best describes your current role?</label><br>
+        <select name="role">
+            <option>Student</option>
+            <option>Intern</option>
+            <option>Junior Designer</option>
+            <option>Senior Designer</option>
+            <option>Other</option>
+        </select><br><br>
+
+
+        <label>Which position would you like to apply for?</label><br>
+        <select name="position">
+            <option>Select an option</option>
+            <option>Graphic designer</option>
+            <option>UI/UX designer</option>
+            <option>video editore</option>
+            <option>Web Developer</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Which languages do you know?</label><br>
+        <input type="checkbox" name="language" value="English"checked> English<br>
+        <input type="checkbox" name="language" value="Urdu" checked> Urdu<br>
+        <input type="checkbox" name="language" value="Spanish"> Spanish<br>
+        <input type="checkbox" name="language" value="Standard Arabic"> Arabic<br>
+        <input type="checkbox" name="language" value="French"checked> French<br>
+        <input type="checkbox" name="language" value="Bengali"> Bengali<br>
+        <input type="checkbox" name="language" value="Portuguese"> Portuguese<br><br>
+
+        <label>Any Comments?</label><br>
+        <textarea name="comments" rows="4" cols="40" placeholder="Enter your comment here..."></textarea><br><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
